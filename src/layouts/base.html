@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+{{ robots }}
+{{ canonical }}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TECAT Performance Systems">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:image" content="{{ og_image }}">
+<link rel="icon" href="{{ root }}favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="{{ root }}favicon-196x196.png">
+<link rel="apple-touch-icon" href="{{ root }}apple-touch-icon-152x152.png">
+<link rel="stylesheet" href="{{ root }}css/tokens.css">
+<link rel="stylesheet" href="{{ root }}css/site.css">
+<script>document.documentElement.classList.add('js')</script>
+{{ jsonld }}
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+{{ header }}
+<main id="main">
+{{ breadcrumb }}
+{{ content }}
+</main>
+{{ footer }}
+<script src="{{ root }}js/site.js" defer></script>
+</body>
+</html>

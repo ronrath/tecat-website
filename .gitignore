@@ -1,0 +1,26 @@
+# This repo is public. The list below is an ALLOWLIST: ignore everything at the
+# top level, then re-include only what the published site needs. Anything new
+# stays private until it is added here on purpose.
+/*
+!/.gitignore
+!/build.py
+!/src/
+!/public/
+!/.github/
+
+# Private notes, even inside tracked folders: CLAUDE.md, docs/, folder READMEs.
+# Page content is .html, so no published file is ever markdown.
+*.md
+
+# Secrets. Nothing needs one yet; a form service key would.
+.env
+.env.*
+
+# Build output. GitHub Actions rebuilds it on every push.
+_site/
+__pycache__/
+
+# Mac and editor clutter
+.DS_Store
+.vscode/
+*.swp

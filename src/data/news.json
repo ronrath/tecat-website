@@ -1,0 +1,281 @@
+[
+  {
+    "date": "2026-10-27",
+    "type": "Product",
+    "headline": "TECAT introduces the TECAT 468 Single Channel and Dual Channel",
+    "summary": "The new wireless strain systems come in 4,000, 6,000, and 8,000 Hz versions and debut at Automotive Testing Expo North America 2026.",
+    "link": {
+      "href": "{{ root }}products/",
+      "label": "See the products"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "type": "Trade show",
+    "headline": "Visit TECAT at Automotive Testing Expo North America 2026",
+    "summary": "TECAT exhibits October 27 to 29, 2026, in Novi, Michigan."
+  },
+  {
+    "date": "2025-10",
+    "type": "Trade show",
+    "headline": "TECAT exhibits at Automotive Testing Expo North America",
+    "summary": "TECAT exhibited its wireless telemetry systems at the October show in Novi, Michigan."
+  },
+  {
+    "date": "2025-01",
+    "type": "Customers",
+    "headline": "NHRA and tractor pulling teams order TECAT telemetry",
+    "summary": "Following a rule change, teams including Kalitta Motorsports and John Force Racing ordered TECAT systems, as did NTPA tractor pulling teams."
+  },
+  {
+    "date": "2024-11",
+    "type": "Product",
+    "headline": "TECAT releases high-resolution single-channel and CAN-output dual-channel systems",
+    "summary": "The single-channel system adds a 16-bit A/D converter, and the dual-channel system adds a CAN interface for vehicle data networks."
+  },
+  {
+    "date": "2024-11",
+    "type": "Partnership",
+    "headline": "Second-generation wireless load cell electronics launch",
+    "summary": "The second generation of TECAT load cell electronics launched in late 2024, and Flintec introduced its next-generation CC PRO wireless load cell built on it in 2025."
+  },
+  {
+    "date": "2024-10",
+    "type": "Trade show",
+    "headline": "TECAT introduces new products at Automotive Testing Expo North America",
+    "summary": "TECAT exhibited in October and introduced its new high-resolution single-channel and CAN-output dual-channel systems."
+  },
+  {
+    "date": "2024-10",
+    "type": "Customers",
+    "headline": "IntelliTork with TECAT telemetry installs 30,000 helical piles at a solar farm",
+    "summary": "Contractors used Pro-Dig USA's IntelliTork system, with TECAT wireless telemetry inside, to record installation torque on the solar farm's piles."
+  },
+  {
+    "date": "2024-09",
+    "type": "Product",
+    "headline": "TECAT adds a pass-by-noise measurement system to its standard offering",
+    "summary": "The system, first developed with Cummins, is now available to other vehicle test programs."
+  },
+  {
+    "date": "2024-06",
+    "type": "Partnership",
+    "headline": "First production rod-rotation sensing load cells ship through Flintec",
+    "summary": "The load cells add wireless rod rotation sensing for artificial lift wells. TECAT developed the capability with Flintec and Marathon Oil, which field tested it in North Dakota in 2023."
+  },
+  {
+    "date": "2024-03",
+    "type": "Capability",
+    "headline": "TECAT demonstrates multi-channel landing gear temperature measurement",
+    "summary": "A demonstration measured temperature wirelessly at several points on aircraft landing gear."
+  },
+  {
+    "date": "2023-10",
+    "type": "Trade show",
+    "headline": "TECAT exhibits at Automotive Testing Expo North America",
+    "summary": "TECAT met with test and validation engineers at the October show in Novi, Michigan."
+  },
+  {
+    "date": "2022-10",
+    "type": "Trade show",
+    "headline": "TECAT exhibits at Automotive Testing Expo North America",
+    "summary": "TECAT exhibited its wireless telemetry systems at the October show."
+  },
+  {
+    "date": "2022-07",
+    "type": "Partnership",
+    "headline": "TECAT develops a pass-by-noise measurement system for Cummins",
+    "summary": "TECAT built the system on its wireless telemetry technology, and it passed field trials in early 2023."
+  },
+  {
+    "date": "2021-10",
+    "type": "Customers",
+    "headline": "IntelliTork systems with TECAT telemetry in use on four continents",
+    "summary": "Pro-Dig USA customers in the United States, Canada, South America, and Europe use the system to measure installation torque on foundation piles."
+  },
+  {
+    "date": "2021-10",
+    "type": "Trade show",
+    "headline": "TECAT exhibits at Automotive Testing Expo North America",
+    "summary": "TECAT showed its wireless torque and strain telemetry systems to test engineers at the October show."
+  },
+  {
+    "date": "2021-07",
+    "type": "Partnership",
+    "headline": "Flintec begins producing wireless load cells under a TECAT technology license",
+    "summary": "Flintec now builds TECAT wireless electronics into its load cells under a multi-year firmware license."
+  },
+  {
+    "date": "2021-05",
+    "type": "Partnership",
+    "headline": "Next-generation IntelliTork launches with TECAT wireless telemetry",
+    "summary": "Pro-Dig USA began receiving production systems in January 2021, and the program finished with a new handheld unit and cloud reporting."
+  },
+  {
+    "date": "2020-10",
+    "type": "Service",
+    "headline": "TECAT begins renting test and measurement systems",
+    "summary": "Test programs can rent a TECAT system for a project instead of buying one. The first rental system went to Cummins."
+  },
+  {
+    "date": "2020-08-18",
+    "type": "Patent",
+    "headline": "TECAT receives a U.S. patent for avionics performance indication",
+    "summary": "The patent covers an integrated wireless data system for avionics performance indication, invented by founder Dr. Douglas Baker.",
+    "link": {
+      "href": "https://patents.google.com/patent/US10748358B2/en",
+      "label": "U.S. Patent 10,748,358"
+    }
+  },
+  {
+    "date": "2020-08-11",
+    "type": "Patent",
+    "headline": "TECAT receives a U.S. patent for drilling rig leg monitoring",
+    "summary": "The patent covers continuous monitoring of leg position and loading on a drilling rig.",
+    "link": {
+      "href": "https://patents.google.com/patent/US10738432B2/en",
+      "label": "U.S. Patent 10,738,432"
+    }
+  },
+  {
+    "date": "2020-04-07",
+    "type": "Patent",
+    "headline": "TECAT receives a U.S. patent for wireless pump control",
+    "summary": "The patent covers an integrated wireless data system and method for pump control.",
+    "link": {
+      "href": "https://patents.google.com/patent/US10612538B2/en",
+      "label": "U.S. Patent 10,612,538"
+    }
+  },
+  {
+    "date": "2020-04",
+    "type": "Partnership",
+    "headline": "TECAT and Pro-Dig USA begin developing the next-generation IntelliTork system",
+    "summary": "IntelliTork measures torque and position on foundation drilling augers. A proof-of-concept field trial in Kansas followed in June 2020."
+  },
+  {
+    "date": "2020-03",
+    "type": "Partnership",
+    "headline": "TECAT wireless load cell electronics for Flintec earn FCC and IC certification",
+    "summary": "The electronics, licensed to Flintec for its CC1W wireless load cell in January 2020, were certified for the U.S. and Canadian markets, and production units began shipping to Flintec customers in April."
+  },
+  {
+    "date": "2020-01-08",
+    "headline": "TECAT Announces Licensure Agreement for Wireless Axial Load Cell Electronics Capability",
+    "summary": "TECAT licensed its wireless electronics, which pair position data with load for artificial lift, to Flintec, Inc. for the CC1W load cell, removing the need for an inclinometer on the pump jack.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2020/01/200107-TECAT-Licensure-Agreement-Announcement.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2019-07-31",
+    "headline": "TECAT Announces Patent for Wireless Axial Load Cell and Sensor Assembly Capability",
+    "summary": "TECAT announced its patent for the Wireless Axial Load Cell and Sensor Assembly, the WISER LC100, which combines position data with load for artificial lift so the pump jack no longer needs an inclinometer.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2020/01/190731-TECAT-Patent-Wireless-Axial-Load-Cell-and-Sensor-Assembly.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2018-10-23",
+    "headline": "TECAT Now Shipping WISER 8000 Wireless Strain Measuring and Monitoring System",
+    "summary": "TECAT released the WISER 8000 Wireless Strain Measuring and Monitoring System and scheduled it for Automotive Testing Expo North America 2018, October 23 to 25 in Novi, Michigan.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2018/10/181023-FINAL.rev3-Press-Release-WISER-8000.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2017-03-21",
+    "headline": "TECAT Signs Representative Agreement with Barnstorm Aviation Solutions, LLC",
+    "summary": "TECAT signed a sales representative agreement with Barnstorm Aviation Solutions.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/04/170313-BAS-Agreement.SnF_.REV32017.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2017-02-28",
+    "headline": "TECAT Expands U.S. Rep Network to Rocky Mountain States",
+    "summary": "TECAT added Technologies West RMS to its U.S. manufacturers' representative network to cover the Rocky Mountain states.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/04/170224-Press-Release-Technologies-West-RMS-1.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-10-26",
+    "headline": "TECAT Expands U.S. Rep Network to Mid-Atlantic, California, and Nevada",
+    "summary": "TECAT added Sentech Measurements Inc. and Measurements Inc. to its U.S. manufacturers' representative network to cover the Mid-Atlantic, California, and Nevada.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/10/161026-TECAT-Measurements-Inc-and-Sentech-PR-FINAL.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-10-14",
+    "headline": "TECAT to Demonstrate WISER 4000 Wireless Torque Measuring and Monitoring System for Petroleum Industry at 2016 PBIOS",
+    "summary": "TECAT scheduled the WISER 4000 wireless torque measuring and monitoring system for the 2016 Permian Basin International Oil Show, October 18 to 20 in Odessa, Texas.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/10/161014-TECAT-PBIOS-PR-FINAL.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-10-12",
+    "headline": "TECAT Introduces New Wireless Temperature Measurement and Monitoring System for Automotive Brake Rotors",
+    "summary": "TECAT introduced the first product in its WISER TC family of temperature measurement and monitoring systems, built for automotive brake rotors.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/10/161012-TECAT-WISER-TC2-K-PR-FINAL.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-09-07",
+    "headline": "TECAT Now Shipping WISER 4000 Wireless Torque Measuring and Monitoring System",
+    "summary": "TECAT began shipping the WISER 4000 wireless torque measuring and monitoring system for automotive, industrial, energy, and aviation applications.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/04/160907-TECAT-WISER-4000-Now-Shipping.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-06-14",
+    "headline": "TECAT to Demonstrate WISER 4000 Wireless Torque Measuring and Monitoring System in Automotive Applications at Sensors Expo & Conference 2016",
+    "summary": "TECAT scheduled the WISER 4000 wireless torque measuring and monitoring system for Sensors Expo & Conference 2016, June 21 to 23 in San Jose, California.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/06/160614-TECAT-Sensors-Expo-and-Conference-PR-FINAL.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-05-24",
+    "headline": "TECAT to Debut Next-Generation Wireless Motion Sensor System at Automotive Testing Expo Europe 2016",
+    "summary": "TECAT scheduled the next generation of its WISER wireless motion sensor system to debut at Automotive Testing Expo Europe 2016, May 31 to June 2 in Stuttgart, Germany.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/05/160523-TECAT-Automotive-Testing-Expo-Europe-PR-FINAL1.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-05-18",
+    "headline": "TECAT Introduces Custom Enclosures for Protection of WISER 2030-S Wireless Torque Sensor's Remote Unit and Battery",
+    "summary": "TECAT introduced custom-built remote enclosures for the WISER 2030-S wireless torque sensor.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/05/160518-TECAT-Remote-enclosures-PR-FINAL-MW-1.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-04-13",
+    "headline": "TECAT Announces First Wireless Torque Sensor Model Featuring Shunt Calibration",
+    "summary": "TECAT released the WISER 2030-S, the first version of its wireless torque sensor with shunt calibration.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/04/160413-TECAT-Shunt-calibration-PR-FINAL1-1.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-03-07",
+    "headline": "TECAT Sponsors Baja SAE and Formula SAE Intercollegiate Design Competitions",
+    "summary": "TECAT sponsored the Baja SAE and Formula SAE intercollegiate design competitions, part of the SAE Collegiate Design Series.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/03/160307-Press-Release-Baja-SAE.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2016-02-15",
+    "headline": "TECAT to Showcase WISER Model 2030 Wireless Torque Measuring and Monitoring System at the Annual Advanced Automotive Diagnostics Systems Summit",
+    "summary": "TECAT planned live demonstrations at the Summit of the WISER Model 2030 monitoring strain in flex plates and measuring temperature and vibration to predict U-joint failure.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2016/02/160215-Press-Release-Automotive-Diagnostic-Systems.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2015-10-26",
+    "headline": "TECAT Announces the Launch of the WISER 2030 Torque Telemetry System",
+    "summary": "TECAT launched the WISER 2030 torque telemetry system with onboard data logging and triggering and remote flash.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2015/11/WISER2030.pdf",
+    "type": "Press release"
+  },
+  {
+    "date": "2015-01-13",
+    "headline": "TECAT Signs Sales Representative Agreement with Stress Analysis Services",
+    "summary": "TECAT added Stress Analysis Services, a test and measurement partner, to its sales team through a representative agreement.",
+    "pdf": "https://tecatperformance.com/wp-content/uploads/2015/11/SASAgreement.pdf",
+    "type": "Press release"
+  }
+]

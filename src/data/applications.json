@@ -1,0 +1,151 @@
+[
+  {
+    "slug": "transportation",
+    "name": "Transportation",
+    "tagline": "Abundant Applications",
+    "questions": [],
+    "intro": "TECAT systems started in the transportation industry and are installed in marine, automotive, and heavy duty applications. Installations cover engines, transmissions, and driveline parts, along with brakes, steering wheels, cooling fans, and trailer hitches.",
+    "proof_points": [
+      {
+        "title": "Installed across marine, automotive, and heavy duty",
+        "body": "TECAT has systems installed at several locations in the marine, automotive, and heavy duty markets. The component list below shows where those installations sit."
+      },
+      {
+        "title": "Driveshaft and halfshaft examples",
+        "body": "Sample application notes show a TECAT system installed on a driveshaft and on a halfshaft."
+      }
+    ],
+    "components": [
+      "Engines (large and small)",
+      "Transmissions",
+      "Drive shafts/Half shafts/Differentials",
+      "On-board dynamometer",
+      "Brakes/Wheel hubs",
+      "Propeller shafts",
+      "Jet engines/Turbines",
+      "Steering wheels",
+      "Cooling fans",
+      "Suspension loads/Trailer hitches",
+      "Flex plates",
+      "Pulleys",
+      "Crankshafts"
+    ],
+    "cta": "Do you have production or testing applications that would benefit from a TECAT system?",
+    "named_customers": [
+      "Center for Automotive Research"
+    ]
+  },
+  {
+    "slug": "motorsports",
+    "name": "Motorsports",
+    "tagline": "Detect, Balance, and Tune",
+    "questions": [],
+    "intro": "TECAT systems measure engine and driveline torque in real time on racing vehicles, including dragsters and pulling tractors and trucks, and send the data to a laptop or datalogger for analysis. The data rate is high enough to show what each cylinder is doing, and the system also measures vibration and acceleration.",
+    "proof_points": [
+      {
+        "title": "Per-cylinder torque at Kalitta Motorsports",
+        "body": "Kalitta Motorsports uses a TECAT system to measure torque in real time and import the data into a notebook computer to analyze engine performance. The measurements run at data rates high enough to show what is happening in each individual cylinder."
+      },
+      {
+        "title": "Tractor and truck pulling with Corsa Instruments",
+        "body": "Corsa Instruments, an Ann Arbor maker of racing data acquisition systems, pairs a TECAT wireless torque system with its dataloggers for tractor and truck pulling. On a diesel pulling tractor, the remote unit rides on the driveshaft in a custom collar, and the base unit's analog output feeds the Corsa datalogger, including high-speed captures set off by a trigger.",
+        "link": {
+          "href": "https://www.corsadata.com",
+          "label": "Corsa Instruments"
+        }
+      },
+      {
+        "title": "Dragsters, experimental aircraft, and racing boats",
+        "body": "TECAT systems apply to dragsters, experimental aircraft, and racing speed boats. On each, they measure torque along with vibration and acceleration."
+      }
+    ],
+    "components": [],
+    "cta": "Give us a call or send an email to discuss your racing application.",
+    "named_customers": [
+      "Corsa Instruments",
+      "Kalitta Motorsports",
+      "Toyota Racing Development"
+    ]
+  },
+  {
+    "slug": "energy",
+    "name": "Energy",
+    "tagline": "Wireless Sensors for Smarter Energy Applications",
+    "questions": [],
+    "intro": "TECAT systems measure torque, acceleration, pressure, temperature, distance, and magnetization. Energy customers use them for down-hole drilling, pipeline pigging, and finding the depth of fault lines before perforating pipe.",
+    "proof_points": [
+      {
+        "title": "Hydraulic chain tong torque-turn",
+        "body": "Down-hole drilling customers use a TECAT system to measure the force in the tightening arm of a hydraulic chain tong. It costs less than a typical torque-turn measurement system. A torque-turn application note is available."
+      },
+      {
+        "title": "Real-time weight-on-bit",
+        "body": "A TECAT system measures torque at the interface between the drill bit and the soil. That gives drilling companies a real-time weight-on-bit measurement for better control."
+      },
+      {
+        "title": "Pipeline pigging",
+        "body": "A TECAT system is part of a pigging system for older pipelines. A magnetometer small enough to pass through the pipe finds valve locations, and TECAT accelerometer data identifies weld seams. A pigging application note is available."
+      },
+      {
+        "title": "Fault line depth and casing compliance",
+        "body": "Geological fault lines produce oil and gas more efficiently than other strata. TECAT offers a wireless way to find the depth of those fault lines so the pipe can be perforated at the best depths. Tracking torque signatures can also document crevices to help meet casing compliance regulations."
+      }
+    ],
+    "components": [],
+    "cta": "Give us a call or send an email to discuss how TECAT can change the way you drill.",
+    "named_customers": []
+  },
+  {
+    "slug": "industrial",
+    "name": "Industrial",
+    "tagline": "Wireless Sensors Optimize Industrial Processes",
+    "questions": [
+      "What if we could directly read the load and proactively respond before the engine speed changes?"
+    ],
+    "intro": "A TECAT system detects changes in torque, vibration, temperature, and more in industrial process flows, all wirelessly. The data lets you monitor each process step, plan predictive maintenance, and reduce downtime.",
+    "proof_points": [
+      {
+        "title": "Pipeline inspection",
+        "body": "A TECAT system was used in a test on more than 2 miles of pipeline to find valve and weld locations. Traditional instrumented internal inspection devices could not reach those stretches of pipe."
+      },
+      {
+        "title": "Motion control",
+        "body": "Designers can use TECAT torque signals to change drive output torque before the load reaches the system. The motor then holds a constant speed."
+      },
+      {
+        "title": "Mine roof bolt torque",
+        "body": "A mining application uses a TECAT system to track torque on the bolts that support the mine roof. It removes the need to check that torque data by hand."
+      }
+    ],
+    "components": [],
+    "cta": "Give us a call or send an email to discuss how TECAT can change the control of your industrial application.",
+    "named_customers": []
+  },
+  {
+    "slug": "ivhm",
+    "name": "IVHM",
+    "tagline": "Redefining Vibration Testing",
+    "questions": [
+      "We are experiencing U-Joint failures in our fleet and they happen without warning.",
+      "What if we could measure temperature right on the U-Joint and use that information to warn the driver?"
+    ],
+    "intro": "TECAT systems process data at the point of measurement for Integrated Vehicle Health Management (IVHM). They measure joint torque, temperature, and vibration and can send torque feedback to the engine ECU.",
+    "proof_points": [
+      {
+        "title": "U-joint failure warning",
+        "body": "A fleet sees U-joint failures that happen without warning. A TECAT system can measure joint torque to predict failure, and it can measure temperature and vibration at the same time to find correlations."
+      },
+      {
+        "title": "Firing order and driveline vibration",
+        "body": "TECAT data shows how engine firing order relates to driveline vibration. Each measurement is processed where it is taken."
+      },
+      {
+        "title": "Torque feedback to the engine ECU",
+        "body": "A TECAT system can send torque feedback to the engine ECU. The torque can come from driveshafts, axles, or suspension components."
+      }
+    ],
+    "components": [],
+    "cta": "Give us a call or send an email to discuss how TECAT can improve your approach to IVHM.",
+    "named_customers": []
+  }
+]

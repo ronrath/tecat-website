@@ -1,0 +1,34 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="{{ root }}">{{ logo }}</a>
+      <p>TECAT Performance Systems designs and manufactures wireless telemetry systems that measure torque, strain, and temperature on rotating and moving parts.</p>
+      <ul class="social">{{ social }}</ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Products</h2>
+      <ul>{{ products_links }}</ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Applications</h2>
+      <ul>{{ apps_links }}</ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Company</h2>
+      <ul>
+        <li><a href="{{ root }}about/">About</a></li>
+        <li><a href="{{ root }}resources/">Resources</a></li>
+        <li><a href="{{ root }}news/">News</a></li>
+        <li><a href="{{ root }}contact/">Contact</a></li>
+        <li><a href="{{ root }}contact/representatives/">Find a representative</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Headquarters</h2>
+      <address>{{ address }}<br><a href="tel:{{ phone_href }}">{{ phone }}</a><br><a href="mailto:{{ email }}">{{ email }}</a></address>
+    </div>
+  </div>
+  <div class="container footer-base">
+    <p>&copy; {{ year }} {{ company }}</p>
+  </div>
+</footer>

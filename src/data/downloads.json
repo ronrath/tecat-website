@@ -1,0 +1,385 @@
+[
+  {
+    "id": "wiser-4000-brochure",
+    "title": "WISER 4000 Brochure",
+    "kind": "brochure",
+    "products": [],
+    "applications": [],
+    "file": "files/wiser-4000-brochure.pdf",
+    "size": "3.1 MB",
+    "description": "Eight-page brochure on the WISER 4000 wireless strain system, covering the remote unit, base unit, Data Viewer software, kit contents, application examples, and shaft enclosures.",
+    "legacy": true
+  },
+  {
+    "id": "wiser-4000-brochure-de",
+    "title": "WISER 4000 Brochure (German)",
+    "kind": "brochure",
+    "products": [],
+    "applications": [],
+    "file": "files/wiser-4000-brochure-de.pdf",
+    "size": "1.7 MB",
+    "description": "Four-page German-language brochure describing the WISER 4000 system, its three subsystems, and its benefits.",
+    "legacy": true
+  },
+  {
+    "id": "wiser-8000-brochure",
+    "title": "WISER 8000 Brochure",
+    "kind": "brochure",
+    "products": [],
+    "applications": [],
+    "file": "files/wiser-8000-brochure.pdf",
+    "size": "2.6 MB",
+    "description": "Eight-page brochure on the WISER 8000 dual-channel strain system, with a comparison to the WISER 4000, electronics specifications, applications, and accessories.",
+    "legacy": true
+  },
+  {
+    "id": "wiser-tc2-k-datasheet",
+    "title": "TC2-K Data Sheet",
+    "kind": "datasheet",
+    "products": [
+      "tecat-tc2-k"
+    ],
+    "applications": [
+      "transportation"
+    ],
+    "file": "files/wiser-tc2-k-datasheet.pdf",
+    "size": "372 KB",
+    "description": "Two-page data sheet for the TECAT TC2-K wireless temperature system, which reads two K-type thermocouples and was designed for brake rotor measurements. Published under the earlier WISER name.",
+    "primary": true
+  },
+  {
+    "id": "wiser-oem-platform-brochure",
+    "title": "OEM Telemetry Platform Brochure",
+    "kind": "brochure",
+    "products": [
+      "tecat-oem"
+    ],
+    "applications": [
+      "energy"
+    ],
+    "file": "files/wiser-oem-platform-brochure.pdf",
+    "size": "1.5 MB",
+    "description": "Brochure in spread layout describing TECAT's wireless OEM telemetry platform for integration into OEM products, including a pump jack load cell example. Published under the earlier WISER name.",
+    "primary": true
+  },
+  {
+    "id": "wiser-lc100-pp-brochure",
+    "title": "LC100-PP Pre-Production Brochure",
+    "kind": "brochure",
+    "products": [
+      "tecat-oem"
+    ],
+    "applications": [
+      "energy"
+    ],
+    "file": "files/wiser-lc100-pp-brochure.pdf",
+    "size": "842 KB",
+    "description": "Four-page pre-production brochure with specifications for the TECAT LC100-PP telemetry system, designed for artificial lift load cell applications. Published under the earlier WISER name."
+  },
+  {
+    "id": "wiser-remote-enclosures-datasheet",
+    "title": "Remote Enclosures Data Sheet",
+    "kind": "datasheet",
+    "products": [
+      "tecat-468-single",
+      "tecat-468-dual"
+    ],
+    "applications": [],
+    "file": "files/wiser-remote-enclosures-datasheet.pdf",
+    "size": "510 KB",
+    "description": "One-page data sheet for the TECAT remote enclosures, listing shaft diameter ranges, heights, operating temperature, and maximum RPM by mounting method. Published under the earlier WISER name."
+  },
+  {
+    "id": "app-note-brake-rotor-temp",
+    "title": "Brake Rotor Temperature Measurements",
+    "kind": "app-note",
+    "products": [
+      "tecat-tc2-k"
+    ],
+    "applications": [
+      "transportation"
+    ],
+    "file": "files/app-note-brake-rotor-temp.pdf",
+    "size": "1.6 MB",
+    "description": "Application note on measuring brake rotor temperature inside a wheel hub with a wireless system that uses two K-type thermocouples."
+  },
+  {
+    "id": "app-note-drive-shaft",
+    "title": "Drive Shaft Measurement for Shift Harshness Evaluation",
+    "kind": "app-note",
+    "products": [],
+    "applications": [
+      "transportation"
+    ],
+    "file": "files/app-note-drive-shaft.pdf",
+    "size": "1.0 MB",
+    "description": "Application note on measuring driveshaft torque on test vehicles during long road trips to evaluate transmission shift harshness."
+  },
+  {
+    "id": "app-note-flex-plate",
+    "title": "Flex Plate Measurements",
+    "kind": "app-note",
+    "products": [],
+    "applications": [
+      "transportation"
+    ],
+    "file": "files/app-note-flex-plate.pdf",
+    "size": "1.1 MB",
+    "description": "Application note on a custom TECAT system packaged on a flex plate to measure torque between the engine and transmission."
+  },
+  {
+    "id": "app-note-half-shaft",
+    "title": "Half Shaft Monitoring",
+    "kind": "app-note",
+    "products": [],
+    "applications": [
+      "transportation"
+    ],
+    "file": "files/app-note-half-shaft.pdf",
+    "size": "1.4 MB",
+    "description": "Application note on measuring wheel torque on vehicle half shafts during hard launches to compare stock and aftermarket parts."
+  },
+  {
+    "id": "app-note-torque-turn",
+    "title": "Torque/Turn Measurements",
+    "kind": "app-note",
+    "products": [],
+    "applications": [
+      "energy"
+    ],
+    "file": "files/app-note-torque-turn.pdf",
+    "size": "885 KB",
+    "description": "Application note on a load cell based TECAT system that measures torque and turns on the hydraulic chain tongs used on drilling rigs."
+  },
+  {
+    "id": "app-note-u-joint",
+    "title": "U-Joint Monitoring",
+    "kind": "app-note",
+    "products": [],
+    "applications": [
+      "transportation",
+      "ivhm"
+    ],
+    "file": "files/app-note-u-joint.pdf",
+    "size": "3.1 MB",
+    "description": "Application note on monitoring torque and temperature on U-joints in truck fleets to find the cause of field failures."
+  },
+  {
+    "id": "case-study-pigging",
+    "title": "Case Study: Pigging for Pipe Anomalies",
+    "kind": "case-study",
+    "products": [],
+    "applications": [
+      "energy"
+    ],
+    "file": "files/case-study-pigging.pdf",
+    "size": "3.8 MB",
+    "description": "Case study on a small pipeline pig carrying an inclinometer, accelerometer, and magnetometer to locate buried valves along a six-mile line."
+  },
+  {
+    "id": "press-2020-01-08-flintec-license",
+    "title": "TECAT Announces Licensure Agreement for Wireless Axial Load Cell Electronics Capability",
+    "kind": "press",
+    "products": [],
+    "applications": [
+      "energy"
+    ],
+    "file": "files/press-2020-01-08-flintec-license.pdf",
+    "size": "105 KB",
+    "description": "TECAT licensed its wireless load cell electronics, which combine position data with load for artificial lift, to Flintec for the CC1W load cell.",
+    "date": "2020-01-08"
+  },
+  {
+    "id": "press-2019-07-31-load-cell-patent",
+    "title": "TECAT Announces Patent for Wireless Axial Load Cell and Sensor Assembly Capability",
+    "kind": "press",
+    "products": [
+      "tecat-oem"
+    ],
+    "applications": [
+      "energy"
+    ],
+    "file": "files/press-2019-07-31-load-cell-patent.pdf",
+    "size": "104 KB",
+    "description": "TECAT announced a patent for its wireless axial load cell and sensor assembly, the WISER LC100, which combines position data with load for artificial lift.",
+    "date": "2019-07-31"
+  },
+  {
+    "id": "press-2018-10-23-wiser-8000-shipping",
+    "title": "TECAT Now Shipping WISER 8000 Wireless Strain Measuring and Monitoring System",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2018-10-23-wiser-8000-shipping.pdf",
+    "size": "105 KB",
+    "description": "TECAT began shipping the WISER 8000, a dual-channel wireless strain system with data rates up to 8 kHz and a transmission range over 1,000 meters.",
+    "date": "2018-10-23"
+  },
+  {
+    "id": "press-2017-03-21-barnstorm-aviation-rep",
+    "title": "TECAT Signs Representative Agreement with Barnstorm Aviation Solutions, LLC",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2017-03-21-barnstorm-aviation-rep.pdf",
+    "size": "886 KB",
+    "description": "TECAT signed a sales representative agreement with Barnstorm Aviation Solutions to reach home-built and experimental aircraft builders.",
+    "date": "2017-03-21"
+  },
+  {
+    "id": "press-2017-02-28-technologies-west-rep",
+    "title": "TECAT Expands U.S. Rep Network to Rocky Mountain States",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2017-02-28-technologies-west-rep.pdf",
+    "size": "58 KB",
+    "description": "TECAT signed Technologies West RMS as its manufacturers' representative for Arizona, Colorado, Idaho, Montana, New Mexico, Utah, and Wyoming.",
+    "date": "2017-02-28"
+  },
+  {
+    "id": "press-2016-10-26-sentech-measurements-inc-reps",
+    "title": "TECAT Expands U.S. Rep Network to Mid-Atlantic, California, and Nevada",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2016-10-26-sentech-measurements-inc-reps.pdf",
+    "size": "186 KB",
+    "description": "TECAT signed Measurements Inc. for the mid-Atlantic states and Sentech Measurements Inc. for California and Nevada as manufacturers' representatives.",
+    "date": "2016-10-26"
+  },
+  {
+    "id": "press-2016-10-14-permian-basin-oil-show",
+    "title": "TECAT to Demonstrate WISER 4000 for Petroleum Industry at 2016 PBIOS",
+    "kind": "press",
+    "products": [],
+    "applications": [
+      "energy"
+    ],
+    "file": "files/press-2016-10-14-permian-basin-oil-show.pdf",
+    "size": "301 KB",
+    "description": "TECAT announced live demonstrations of the WISER 4000, including torque/turn monitoring for drilling rigs, at the 2016 Permian Basin International Oil Show in Odessa, Texas.",
+    "date": "2016-10-14"
+  },
+  {
+    "id": "press-2016-10-12-wiser-tc2-k",
+    "title": "TECAT Introduces New Wireless Temperature Measurement and Monitoring System for Automotive Brake Rotors",
+    "kind": "press",
+    "products": [
+      "tecat-tc2-k"
+    ],
+    "applications": [
+      "transportation"
+    ],
+    "file": "files/press-2016-10-12-wiser-tc2-k.pdf",
+    "size": "198 KB",
+    "description": "TECAT introduced the WISER TC2-K, a wireless temperature system for automotive brake rotors designed to mount inside wheel hubs.",
+    "date": "2016-10-12"
+  },
+  {
+    "id": "press-2016-09-07-wiser-4000-shipping",
+    "title": "TECAT Now Shipping WISER 4000 Wireless Torque Measuring and Monitoring System",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2016-09-07-wiser-4000-shipping.pdf",
+    "size": "179 KB",
+    "description": "TECAT began shipping the WISER 4000, which adds shunt calibration, two more programmable analog outputs, and faster recording.",
+    "date": "2016-09-07"
+  },
+  {
+    "id": "press-2016-06-14-sensors-expo",
+    "title": "TECAT to Demonstrate WISER 4000 in Automotive Applications at Sensors Expo & Conference 2016",
+    "kind": "press",
+    "products": [],
+    "applications": [
+      "transportation"
+    ],
+    "file": "files/press-2016-06-14-sensors-expo.pdf",
+    "size": "103 KB",
+    "description": "TECAT announced live demonstrations of the WISER 4000 in automotive applications at Sensors Expo & Conference 2016 in San Jose, California.",
+    "date": "2016-06-14"
+  },
+  {
+    "id": "press-2016-05-24-automotive-testing-expo-europe",
+    "title": "TECAT to Debut Next-Generation Wireless Motion Sensor System at Automotive Testing Expo Europe 2016",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2016-05-24-automotive-testing-expo-europe.pdf",
+    "size": "42 KB",
+    "description": "TECAT announced the debut of its next-generation WISER system, with shunt calibration and two added programmable analog outputs, at Automotive Testing Expo Europe 2016 in Stuttgart.",
+    "date": "2016-05-24"
+  },
+  {
+    "id": "press-2016-05-18-remote-enclosures",
+    "title": "TECAT Introduces Custom Enclosures for WISER 2030-S Remote Unit and Battery",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2016-05-18-remote-enclosures.pdf",
+    "size": "43 KB",
+    "description": "TECAT introduced optional enclosures that protect the WISER 2030-S remote unit and battery and attach to shafts with hose clamps.",
+    "date": "2016-05-18"
+  },
+  {
+    "id": "press-2016-04-13-shunt-calibration",
+    "title": "TECAT Announces First Wireless Torque Sensor Model Featuring Shunt Calibration",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2016-04-13-shunt-calibration.pdf",
+    "size": "100 KB",
+    "description": "TECAT released the WISER 2030-S, its first wireless torque sensor model with shunt calibration.",
+    "date": "2016-04-13"
+  },
+  {
+    "id": "press-2016-03-07-baja-formula-sae",
+    "title": "TECAT Sponsors Baja SAE and Formula SAE Intercollegiate Design Competitions",
+    "kind": "press",
+    "products": [],
+    "applications": [
+      "motorsports"
+    ],
+    "file": "files/press-2016-03-07-baja-formula-sae.pdf",
+    "size": "26 KB",
+    "description": "TECAT became an equipment supplier sponsor of the Baja SAE and Formula SAE collegiate competitions, offering teams torque measurement for half shafts and drive shafts.",
+    "date": "2016-03-07"
+  },
+  {
+    "id": "press-2016-02-15-diagnostics-summit",
+    "title": "TECAT to Showcase WISER Model 2030 at the Advanced Automotive Diagnostics Systems Summit",
+    "kind": "press",
+    "products": [],
+    "applications": [
+      "transportation",
+      "ivhm"
+    ],
+    "file": "files/press-2016-02-15-diagnostics-summit.pdf",
+    "size": "32 KB",
+    "description": "TECAT announced demonstrations of the WISER 2030 monitoring flex plate strain and U-joint temperature and vibration at the Advanced Automotive Diagnostics Systems Summit in Stuttgart.",
+    "date": "2016-02-15"
+  },
+  {
+    "id": "press-2015-10-26-wiser-2030-launch",
+    "title": "TECAT Announces Launch of the WISER 2030 Torque Telemetry System",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2015-10-26-wiser-2030-launch.pdf",
+    "size": "461 KB",
+    "description": "TECAT launched the WISER 2030 torque telemetry system, which adds on-board high-speed data logging with triggering and remote firmware updates.",
+    "date": "2015-10-26"
+  },
+  {
+    "id": "press-2015-01-13-stress-analysis-services-rep",
+    "title": "TECAT Signs Sales Representative Agreement with Stress Analysis Services",
+    "kind": "press",
+    "products": [],
+    "applications": [],
+    "file": "files/press-2015-01-13-stress-analysis-services-rep.pdf",
+    "size": "122 KB",
+    "description": "TECAT signed a sales representative agreement with Stress Analysis Services.",
+    "date": "2015-01-13"
+  }
+]

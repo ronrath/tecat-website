@@ -1,0 +1,101 @@
+{
+  "name": "TECAT Performance Systems, LLC",
+  "address": [
+    "775 Technology Drive, Suite 200",
+    "Ann Arbor, Michigan 48108"
+  ],
+  "phone": "248.615.9862",
+  "email": "sales@tecatperformance.com",
+  "sales_contact": "Don Keating",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/tecat-performance-sensors",
+    "youtube": "https://www.youtube.com/channel/UC354DM7PxJ8TYnSaU9V_U4w",
+    "facebook": "https://www.facebook.com/TECATPerformance/",
+    "twitter": "https://twitter.com/TECATSystems"
+  },
+  "history": [
+    {
+      "year": "1997-2010",
+      "title": "T3 prototype",
+      "body": "While designing engines at TECAT Engineering, the company he founded in 1997, Dr. Douglas Baker invented the T3, a non-invasive wireless torque measurement device for rotating shafts, and began building prototypes.",
+      "verify": true
+    },
+    {
+      "year": "2010",
+      "title": "Model 462",
+      "body": "The Model 462 became the first commercially produced version of the wireless torque measurement system."
+    },
+    {
+      "year": "2014",
+      "title": "TECAT Performance Systems, LLC formed",
+      "body": "Dr. Baker established TECAT Performance Systems, LLC to structure the organization for future growth."
+    },
+    {
+      "year": "2015",
+      "title": "WISER 2000 and WISER 2030",
+      "body": "The WISER 2000 put an 8 g remote transceiver directly on the shaft, and the WISER 2030 launched in October 2015 with onboard data logging and triggering and remote flash.",
+      "verify": true
+    },
+    {
+      "year": "2016",
+      "title": "WISER 4000",
+      "body": "TECAT began shipping the WISER 4000 wireless torque measuring and monitoring system in September 2016."
+    },
+    {
+      "year": "2018",
+      "title": "WISER 8000",
+      "body": "TECAT released the WISER 8000 Wireless Strain Measuring and Monitoring System in October 2018 at Automotive Testing Expo North America in Novi, Michigan."
+    },
+    {
+      "year": "2018-2020",
+      "title": "WISER OEM Platform",
+      "body": "The WISER OEM Platform brought wireless load sensing to oilfield pump jack load cells, followed by a 2019 patent for the Wireless Axial Load Cell and Sensor Assembly and a 2020 license agreement with Flintec, Inc. for its CC1W load cell."
+    },
+    {
+      "year": "2020",
+      "title": "Wireless load cell electronics ship for Flintec",
+      "body": "TECAT wireless load cell electronics, licensed to Flintec for its CC1W load cell, earned FCC and IC certification and began shipping to Flintec customers in April."
+    },
+    {
+      "year": "2020",
+      "title": "Three U.S. patents",
+      "body": "TECAT received U.S. patents for wireless pump control, drilling rig leg monitoring, and avionics performance indication."
+    },
+    {
+      "year": "2021",
+      "title": "IntelliTork with Pro-Dig USA",
+      "body": "The next-generation IntelliTork pile torque system, developed with Pro-Dig USA on TECAT wireless telemetry, launched and was in use on four continents by year end."
+    },
+    {
+      "year": "2021",
+      "title": "Technology licensing with Flintec",
+      "body": "Flintec began building TECAT wireless electronics into its load cells under a multi-year firmware license."
+    },
+    {
+      "year": "2022",
+      "title": "Pass-by-noise system for Cummins",
+      "body": "TECAT began developing a pass-by-noise measurement system for Cummins. It passed field trials in early 2023 and later became a standard TECAT offering."
+    },
+    {
+      "year": "2023",
+      "title": "Rod rotation sensing field tested",
+      "body": "TECAT and Flintec field tested wireless rod rotation sensing for artificial lift wells with Marathon Oil in North Dakota."
+    },
+    {
+      "year": "2024",
+      "title": "High-resolution and CAN systems",
+      "body": "TECAT released a 16-bit high-resolution single-channel system and a CAN-output dual-channel system, and the first production rod-rotation load cells shipped through Flintec."
+    },
+    {
+      "year": "2025",
+      "title": "Racing teams and next-generation load cells",
+      "body": "NHRA and tractor pulling teams ordered TECAT telemetry after a rule change, and Flintec introduced its CC PRO wireless load cell built on second-generation TECAT electronics."
+    },
+    {
+      "year": "2026",
+      "title": "TECAT 468 family",
+      "body": "TECAT introduces the TECAT 468 Single Channel and Dual Channel at Automotive Testing Expo North America in October."
+    }
+  ],
+  "founder": "TECAT Performance Systems was founded by Dr. Douglas Baker, an automotive industry veteran with many years of R&D experience in engine direct injection fuel systems, algorithms, firmware, simulation, and data acquisition systems and sensors. While designing engines at TECAT Engineering, which he founded in 1997, he needed a small, low-cost torque measurement system that would not harm the system under test, found none on the market, and invented his own wireless data acquisition system for rotating shafts. He established TECAT Performance Systems, LLC in 2014."
+}

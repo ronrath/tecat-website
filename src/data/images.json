@@ -1,0 +1,155 @@
+{
+  "hero-tecat-kit": {
+    "src": "images/hero-tecat-kit.jpg",
+    "src_sm": "images/hero-tecat-kit-800.jpg",
+    "width": 2000,
+    "height": 1405,
+    "alt": "TECAT 8000 kit on a light gray background, with a black TECAT carrying case, an orange base unit with antenna, a remote circuit board, and cables"
+  },
+  "product-tecat-468-single-1": {
+    "src": "images/product-tecat-468-single-1.jpg",
+    "src_sm": "images/product-tecat-468-single-1-800.jpg",
+    "width": 1086,
+    "height": 724,
+    "alt": "TECAT 4000 kit on a tan background, with a black TECAT carrying case, a red base unit with antenna, a remote unit, and cables"
+  },
+  "product-tecat-468-single-2": {
+    "src": "images/product-tecat-468-single-2.jpg",
+    "src_sm": "images/product-tecat-468-single-2-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Red TECAT 4000 base unit with black rubber end caps, showing four analog output connectors"
+  },
+  "product-tecat-468-single-3": {
+    "src": "images/product-tecat-468-single-3.jpg",
+    "src_sm": "images/product-tecat-468-single-3-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Red TECAT remote unit enclosure with the TECAT logo, on a black base"
+  },
+  "product-tecat-468-dual-1": {
+    "src": "images/product-tecat-468-dual-1.jpg",
+    "src_sm": "images/product-tecat-468-dual-1-800.jpg",
+    "width": 1707,
+    "height": 1043,
+    "alt": "Orange TECAT 8000 base unit with black rubber end caps, showing its power, USB, and antenna connectors"
+  },
+  "product-tecat-468-dual-2": {
+    "src": "images/product-tecat-468-dual-2.jpg",
+    "src_sm": "images/product-tecat-468-dual-2-800.jpg",
+    "width": 1416,
+    "height": 865,
+    "alt": "Front of the TECAT 8000 base unit with eight analog output connectors labeled A1 through A8"
+  },
+  "product-tecat-468-dual-3": {
+    "src": "images/product-tecat-468-dual-3.jpg",
+    "src_sm": "images/product-tecat-468-dual-3-800.jpg",
+    "width": 1995,
+    "height": 2000,
+    "alt": "Two TECAT 8000 remote enclosures on black bases, a red cover marked 8000 and a white battery cover"
+  },
+  "product-tecat-tc2-k-1": {
+    "src": "images/product-tecat-tc2-k-1.jpg",
+    "src_sm": "images/product-tecat-tc2-k-1-800.jpg",
+    "width": 1336,
+    "height": 752,
+    "alt": "Red TECAT TC2-K remote enclosure with the TECAT logo on a white table"
+  },
+  "product-tecat-tc2-k-2": {
+    "src": "images/product-tecat-tc2-k-2.jpg",
+    "src_sm": "images/product-tecat-tc2-k-2-800.jpg",
+    "width": 1336,
+    "height": 752,
+    "alt": "TECAT TC2-K remote enclosure mounted at the center of an alloy wheel"
+  },
+  "product-tecat-oem-1": {
+    "src": "images/product-tecat-oem-1.jpg",
+    "src_sm": "images/product-tecat-oem-1-800.jpg",
+    "width": 1267,
+    "height": 869,
+    "alt": "Rendering of a blue wireless load cell housing with a mounting arm and a bolted end cap"
+  },
+  "product-tecat-oem-2": {
+    "src": "images/product-tecat-oem-2.jpg",
+    "src_sm": "images/product-tecat-oem-2-800.jpg",
+    "width": 1329,
+    "height": 814,
+    "alt": "Side view rendering of a blue wireless load cell housing with a mounting arm"
+  },
+  "installed-prop-shaft": {
+    "src": "images/installed-prop-shaft.jpg",
+    "src_sm": "images/installed-prop-shaft-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Red TECAT remote unit mounted on an aircraft propeller shaft extension between its bolted flanges"
+  },
+  "installed-flex-plate": {
+    "src": "images/installed-flex-plate.jpg",
+    "src_sm": "images/installed-flex-plate-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Instrumented flex plate with sensor electronics along its rim, next to a red TECAT base unit with antenna"
+  },
+  "installed-u-joint": {
+    "src": "images/installed-u-joint.jpg",
+    "src_sm": "images/installed-u-joint-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "U-joint cross with TECAT remote electronics bonded to its center"
+  },
+  "installed-shaft": {
+    "src": "images/installed-shaft.jpg",
+    "src_sm": "images/installed-shaft-800.jpg",
+    "width": 2000,
+    "height": 498,
+    "alt": "TECAT remote electronics and strain gauge wiring bonded to a metal shaft, with a penny for scale"
+  },
+  "app-transportation": {
+    "src": "images/app-transportation.jpg",
+    "src_sm": "images/app-transportation-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Automotive half shaft with a TECAT remote unit mounted at its center, on a white background"
+  },
+  "app-motorsports": {
+    "src": "images/app-motorsports.jpg",
+    "src_sm": "images/app-motorsports-800.jpg",
+    "width": 1000,
+    "height": 664,
+    "alt": "Top fuel dragster with SealMaster livery racing past a full grandstand"
+  },
+  "app-energy": {
+    "src": "images/app-energy.jpg",
+    "src_sm": "images/app-energy-800.jpg",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Oil field pumping units behind orange safety railings, with an open electrical cabinet in the foreground"
+  },
+  "app-industrial": {
+    "src": "images/app-industrial.jpg",
+    "src_sm": "images/app-industrial-800.jpg",
+    "width": 2000,
+    "height": 1500,
+    "alt": "Mining machine with drill booms in an underground salt mine tunnel lit by work lights"
+  },
+  "app-ivhm": {
+    "src": "images/app-ivhm.jpg",
+    "src_sm": "images/app-ivhm-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Close view of an instrumented U-joint with TECAT remote electronics on a tan background"
+  },
+  "about-building": {
+    "src": "images/about-building.jpg",
+    "src_sm": "images/about-building-800.jpg",
+    "width": 2000,
+    "height": 1333,
+    "alt": "Glass entrance of a brick office building with the TECAT logo and Suite 200 on the door"
+  },
+  "logo": {
+    "src": "images/logo-tecat-horizontal.png",
+    "src_2x": "images/logo-tecat-horizontal@2x.png",
+    "width": 480,
+    "height": 163
+  }
+}

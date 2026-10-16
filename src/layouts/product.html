@@ -1,0 +1,51 @@
+<section class="section product-intro">
+  <div class="container product-grid">
+    <div class="product-text">
+      <p class="eyebrow">{{ category }}</p>
+      <h1>{{ name }}</h1>
+      <p class="lead">{{ positioning }}</p>
+      {{ key_specs }}
+      <div class="actions">
+        {{ datasheet_button }}
+        <a class="btn btn-secondary" href="{{ root }}contact/?topic=quote&amp;product={{ slug }}">Request a Quote</a>
+      </div>
+    </div>
+    <div class="product-media">{{ gallery }}</div>
+  </div>
+</section>
+
+{{ options_section }}
+
+<section class="section alt">
+  <div class="container two-col">
+    <div>
+      <h2>Overview</h2>
+      <p>{{ summary }}</p>
+      <h3>What it measures</h3>
+      <ul class="checks">{{ measures }}</ul>
+    </div>
+    <div>
+      <h2>Features</h2>
+      <ul class="checks">{{ features }}</ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Specifications</h2>
+    {{ spec_note }}
+    {{ spec_table }}
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <h2>How the system works</h2>
+    {{ block:architecture }}
+  </div>
+</section>
+
+{{ downloads_section }}
+{{ related_section }}
+{{ cta }}

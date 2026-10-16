@@ -1,0 +1,28 @@
+<!--{"title": "Contact", "description": "Request a quote, get a TECAT data sheet, or talk to a TECAT engineer about a measurement problem.", "nav": "contact", "crumbs": [["Contact", "contact/"]]}-->
+<section class="page-intro">
+  <div class="container narrow">
+    <p class="eyebrow">Contact</p>
+    <h1>Talk to TECAT</h1>
+    <p class="lead">Tell us about the part and what you need to measure. Ask for a quote or a data sheet, or work through the problem with an engineer.</p>
+  </div>
+</section>
+
+<section class="section flush-top">
+  <div class="container contact-grid">
+    <div>
+      {{ block:contact_form }}
+      <p class="verify-note">[VERIFY] D10: where inquiries land is Don's call. For now the form opens the visitor's email program.</p>
+    </div>
+    <aside class="contact-card" aria-label="Direct contact">
+      <h2>Sales</h2>
+      <p><strong>{{ block:company:sales_contact }}</strong><br>
+        <a href="tel:{{ block:tel }}">{{ block:company:phone }}</a><br>
+        <a href="mailto:{{ block:company:email }}">{{ block:company:email }}</a></p>
+      <p class="verify-note">[VERIFY] D11: confirm the phone number and email.</p>
+      <h2>Headquarters</h2>
+      {{ block:address }}
+      <h2>Representatives</h2>
+      <p>Prefer a local contact? <a href="{{ root }}contact/representatives/">Find a representative</a>.</p>
+    </aside>
+  </div>
+</section>

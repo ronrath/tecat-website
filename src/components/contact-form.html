@@ -1,0 +1,46 @@
+<form id="contact-form" class="contact-form" data-to="{{ email }}" action="mailto:{{ email }}" method="post" enctype="text/plain">
+  <div class="field-row">
+    <div class="field">
+      <label for="cf-topic">What do you need?</label>
+      <select id="cf-topic" name="topic">
+        <option value="quote">Request a Quote</option>
+        <option value="datasheet">Download Datasheet</option>
+        <option value="engineer">Talk to an Engineer</option>
+        <option value="other">Something else</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="cf-product">Product</label>
+      <select id="cf-product" name="product">
+        <option value="">Not sure yet</option>
+        {{ product_options }}
+      </select>
+    </div>
+  </div>
+  <div class="field-row">
+    <div class="field">
+      <label for="cf-name">Name</label>
+      <input id="cf-name" name="name" autocomplete="name" required>
+    </div>
+    <div class="field">
+      <label for="cf-company">Company</label>
+      <input id="cf-company" name="company" autocomplete="organization">
+    </div>
+  </div>
+  <div class="field-row">
+    <div class="field">
+      <label for="cf-email">Email</label>
+      <input id="cf-email" name="email" type="email" autocomplete="email" required>
+    </div>
+    <div class="field">
+      <label for="cf-phone">Phone <span class="optional">(optional)</span></label>
+      <input id="cf-phone" name="phone" type="tel" autocomplete="tel">
+    </div>
+  </div>
+  <div class="field">
+    <label for="cf-message">What are you measuring?</label>
+    <textarea id="cf-message" name="message" rows="5" placeholder="The part, the measurement, the speed or temperature range, and your data acquisition setup"></textarea>
+  </div>
+  <button class="btn btn-primary" type="submit">Send</button>
+  <p class="form-note">Sending opens your email program with the message filled in.</p>
+</form>

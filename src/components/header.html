@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="container header-bar">
+    <a class="brand" href="{{ root }}">{{ logo }}</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul class="nav-list">
+        <li class="has-menu">
+          <a href="{{ root }}products/"{{ cur_products }}>Products</a>
+          <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="menu-products"><span class="visually-hidden">Show product pages</span></button>
+          <ul class="submenu" id="menu-products">{{ products_menu }}</ul>
+        </li>
+        <li class="has-menu">
+          <a href="{{ root }}applications/"{{ cur_applications }}>Applications</a>
+          <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="menu-apps"><span class="visually-hidden">Show application pages</span></button>
+          <ul class="submenu" id="menu-apps">{{ apps_menu }}</ul>
+        </li>
+        <li><a href="{{ root }}resources/"{{ cur_resources }}>Resources</a></li>
+        <li><a href="{{ root }}news/"{{ cur_news }}>News</a></li>
+        <li><a href="{{ root }}about/"{{ cur_about }}>About</a></li>
+        <li class="nav-cta-item"><a class="btn btn-primary nav-cta" href="{{ root }}contact/"{{ cur_contact }}>Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

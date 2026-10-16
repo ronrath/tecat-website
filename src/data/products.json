@@ -1,0 +1,859 @@
+[
+  {
+    "slug": "tecat-468-single",
+    "name": "TECAT 468 Single Channel",
+    "category": "Wireless single-channel strain system",
+    "positioning": "Single-channel wireless strain system for torque on shafts, flexplates, and driveline parts.",
+    "summary": "The TECAT 468 Single Channel reads one strain gage bridge on a rotating or moving part and sends the data by radio to a base unit at your PC. It comes in 4,000, 6,000, and 8,000 Hz sampling versions. Its 16-bit A/D converter means you no longer send your strain range with the order so a gain resistor can be fitted before shipping. The remote transceiver weighs 6.5 g without its battery, and the base unit's four analog outputs feed your DAQ directly.",
+    "key_specs": [
+      {
+        "value": "4, 6, or 8 kHz",
+        "label": "sampling versions"
+      },
+      {
+        "value": "16-bit",
+        "label": "A/D converter"
+      },
+      {
+        "value": "6.5 g",
+        "label": "remote unit, no battery"
+      },
+      {
+        "value": "4",
+        "label": "analog outputs"
+      }
+    ],
+    "options": [
+      {
+        "name": "Sampling rate",
+        "choices": [
+          "4,000 Hz",
+          "6,000 Hz",
+          "8,000 Hz"
+        ]
+      },
+      {
+        "name": "Resolution",
+        "choices": [
+          "High resolution: 16-bit A/D converter, all sampling versions",
+          "Entry level, under consideration: 4,000 Hz with a 12-bit A/D converter and a factory-set gain resistor sized to your strain range"
+        ]
+      },
+      {
+        "name": "Base unit",
+        "choices": [
+          "4 analog outputs, 30 m line of sight"
+        ]
+      }
+    ],
+    "options_note": "[VERIFY] The TECAT 468 lineup is still being finalized: version names and whether the entry-level version is offered.",
+    "spec_note": "[VERIFY] Values below come from the current single-channel hardware, except the A/D converter. Engineering to confirm sensitivity and input range for the 16-bit TECAT 468.",
+    "measures": [
+      "Strain from one full-bridge strain gage input (torque, tension, compression)",
+      "3-axis acceleration, optional, ±16 g or ±400 g"
+    ],
+    "features": [
+      "The 16-bit A/D converter covers the strain range without a factory gain setting, so you don't have to supply your strain range when you order. The earlier 12-bit design needed it to fit the right gain resistor before shipping.",
+      "The remote transceiver board measures 45 mm × 23 mm × 6 mm with mounting tabs and runs on a 3.7 V Li-Poly cell.",
+      "The base unit plugs into a PC USB port and carries the antenna, the transceiver, and four programmable 0 V to 5 V analog outputs for your DAQ.",
+      "Two independent shunt calibration legs, signal + and signal − to ground through 100 kΩ, let you check calibration in the field.",
+      "On-board data logging records events without a PC or DAQ connection.",
+      "Remote flash updates the firmware without removing the remote unit from the part under test.",
+      "Optional shaft enclosures protect the remote unit and battery from debris. The inductive charging version recharges the battery without exposing the USB port.",
+      "The system installs without altering the part under test and can be removed.",
+      "The kit ships in a carrying case with remote and base transceivers, antenna, battery, power adapters, cables, and TECAT Data Viewer software."
+    ],
+    "specs": [
+      {
+        "group": "Remote unit",
+        "rows": [
+          [
+            "Sensor input",
+            "Full Wheatstone bridge, 350 Ω strain gage or higher"
+          ],
+          [
+            "External channels",
+            "1"
+          ],
+          [
+            "Maximum sampling rate",
+            "4,000, 6,000, or 8,000 Hz, by version"
+          ],
+          [
+            "Measurement sensitivity",
+            "±0.1% FSR (digital output)"
+          ],
+          [
+            "A/D converter",
+            "16 bit (high-resolution versions); 12 bit (entry-level version, if offered)"
+          ],
+          [
+            "Bridge excitation",
+            "2.048 V DC at 10 mA maximum, pulsed to the sensor"
+          ],
+          [
+            "Differential input range",
+            "High resolution: no factory setting needed. Entry level: factory set from your strain range (0 mV to 5 mV, 0 mV to 10 mV, or 0 mV to 20 mV)"
+          ],
+          [
+            "Analog gain",
+            "User selectable: 1×, 2×, 10×, 200×"
+          ],
+          [
+            "Digital gain",
+            "User selectable: 1×, 2×, 4×, 8×, 16×"
+          ],
+          [
+            "Digital offset",
+            "User selectable: ±100% full scale"
+          ],
+          [
+            "Oversampling",
+            "1×, 2×, 4×, 8×, 16×, 32×"
+          ],
+          [
+            "Shunt calibration",
+            "2 independent legs: signal + to ground and signal − to ground, each through 100 kΩ"
+          ],
+          [
+            "Accelerometer",
+            "Optional 3-axis: ±16 g or ±400 g"
+          ],
+          [
+            "Power supply",
+            "3 V DC to 6 V DC, 6 V DC absolute maximum"
+          ],
+          [
+            "Sensor driver current",
+            "10 mA absolute maximum"
+          ],
+          [
+            "Battery",
+            "3.7 V single-cell Li-Poly: 400 mAh standard; 850 mAh or 1,000 mAh optional"
+          ],
+          [
+            "Current draw",
+            "3.8 mA at 1 kHz active with a 350 Ω gage; 25 µA inactive; varies with oversampling"
+          ],
+          [
+            "Battery life, field example",
+            "Over 200 hours of 2 kHz data on a 1,000 mAh battery (driveshaft test)"
+          ],
+          [
+            "Dimensions",
+            "36 mm × 23 mm × 4 mm board without tabs and connectors; 45 mm × 23 mm × 6 mm with mounting tabs"
+          ],
+          [
+            "Mass",
+            "6.5 g transceiver with epoxy coating; 9.0 g for the 400 mAh battery"
+          ],
+          [
+            "Operating temperature",
+            "−40 °C to +120 °C"
+          ]
+        ]
+      },
+      {
+        "group": "Radio link",
+        "rows": [
+          [
+            "Carrier",
+            "2.45 GHz direct sequence spread spectrum, 2.405 GHz to 2.480 GHz, license free worldwide"
+          ],
+          [
+            "RF channels",
+            "16"
+          ],
+          [
+            "Packet standard",
+            "IEEE 802.15.4 capable, open communication architecture"
+          ],
+          [
+            "Range",
+            "30 m (100 ft) line of sight"
+          ]
+        ]
+      },
+      {
+        "group": "Base unit",
+        "rows": [
+          [
+            "Host connection",
+            "USB, mounts as a COM port; up to 230,400 baud, 8 data bits, no parity, 1 stop bit"
+          ],
+          [
+            "Analog outputs",
+            "4 programmable channels, 0 V to 5 V (2.5 V nominal center)"
+          ],
+          [
+            "Power supply",
+            "5 V DC to 24 V DC unregulated, or USB"
+          ]
+        ]
+      },
+      {
+        "group": "Software",
+        "rows": [
+          [
+            "Software",
+            "TECAT Data Viewer, or user supplied"
+          ],
+          [
+            "Functions",
+            "Configuration, calibration, live monitoring, data logging"
+          ],
+          [
+            "Firmware updates",
+            "Remote flash, without removing the remote unit from the unit under test"
+          ]
+        ]
+      },
+      {
+        "group": "Shaft enclosures (optional)",
+        "rows": [
+          [
+            "Material",
+            "PA 2200 plastic"
+          ],
+          [
+            "Operating temperature",
+            "−40 °C to +80 °C"
+          ],
+          [
+            "Maximum speed, 19 mm to 28.5 mm shaft",
+            "Standard: 15,000 rpm with 2 hose clamps, 12,000 rpm with 1. Inductive charging: 11,250 rpm with 2, 9,000 rpm with 1"
+          ],
+          [
+            "Maximum speed, 28.5 mm to 60.3 mm shaft",
+            "Standard: 10,000 rpm with 2 hose clamps, 8,000 rpm with 1. Inductive charging: 7,500 rpm with 2, 6,000 rpm with 1"
+          ],
+          [
+            "Shafts over 60.3 mm",
+            "Limit set by centrifugal force on a 27 g mass at the shaft surface; see the brochure"
+          ],
+          [
+            "Sealing",
+            "Not watertight"
+          ]
+        ]
+      }
+    ],
+    "comparison": {
+      "Measurands": "Strain (torque); optional 3-axis acceleration",
+      "Channels": "1 strain channel",
+      "Sample rate": "4,000, 6,000, or 8,000 Hz versions",
+      "Accuracy": "±0.1% FSR on current hardware [VERIFY]",
+      "Radio range": "30 m line of sight",
+      "Remote unit size and mass": "45 mm × 23 mm × 6 mm; 6.5 g plus 9.0 g battery",
+      "Battery life": "Over 200 hours at 2 kHz (1,000 mAh battery, field example)",
+      "Outputs": "4 analog (0 V to 5 V), USB",
+      "Typical use": "Torque on driveshafts, halfshafts, and flexplates; pulling tractor drivelines"
+    },
+    "applications": [
+      "transportation",
+      "motorsports",
+      "energy",
+      "industrial"
+    ]
+  },
+  {
+    "slug": "tecat-468-dual",
+    "name": "TECAT 468 Dual Channel",
+    "category": "Wireless dual-channel strain system",
+    "positioning": "Two-channel wireless strain system for torque and thrust together, bending, and low-strain structures.",
+    "summary": "The TECAT 468 Dual Channel reads two strain gage bridges from one remote unit, so a single installation measures two loads at once, such as torque and thrust on a propeller. It comes in 4,000, 6,000, and 8,000 Hz sampling versions, each with a choice of base unit: 4 analog outputs and a 30 m radio link, or 8 analog outputs and a 1,000 m radio link.",
+    "key_specs": [
+      {
+        "value": "2",
+        "label": "strain channels"
+      },
+      {
+        "value": "4, 6, or 8 kHz",
+        "label": "sampling versions"
+      },
+      {
+        "value": "Up to 1,000 m",
+        "label": "radio range"
+      },
+      {
+        "value": "±0.04% FSR",
+        "label": "typical sensitivity"
+      }
+    ],
+    "options": [
+      {
+        "name": "Sampling rate",
+        "choices": [
+          "4,000 Hz",
+          "6,000 Hz",
+          "8,000 Hz"
+        ]
+      },
+      {
+        "name": "Base unit",
+        "choices": [
+          "4 analog outputs, 30 m line of sight",
+          "8 analog outputs, 1,000 m line of sight"
+        ]
+      }
+    ],
+    "options_note": "[VERIFY] The TECAT 468 lineup is still being finalized, including version names.",
+    "spec_note": "[VERIFY] Values below come from the current dual-channel hardware. Engineering to confirm them for the TECAT 468.",
+    "measures": [
+      "Strain on two full-bridge strain gage inputs (torque, thrust, bending)",
+      "Torsional vibration",
+      "3-axis acceleration, optional, ±16 g or ±400 g"
+    ],
+    "features": [
+      "Two external strain gage inputs measure two loads at once on a rotating shaft, such as torque and axial load or two components of bending.",
+      "At 8 kHz the standard 400 mAh battery runs for up to 25 hours.",
+      "The radio link reaches 1,000 m line of sight with the 8-output base unit and 30 m with the 4-output base unit.",
+      "Four or eight analog output channels, depending on the base unit, each defined in TECAT Data Viewer, feed your DAQ directly.",
+      "The remote transceiver stores up to 30,000 samples on a trigger, so it captures high-speed events without a PC connection for download later.",
+      "On the 8-output base unit, a rotary switch selects the RF channel.",
+      "An 18-bit A/D converter, two shunt calibration legs, and digital polarity reversal and zero are built in.",
+      "The system installs without altering the part under test and can be removed."
+    ],
+    "specs": [
+      {
+        "group": "Remote unit",
+        "rows": [
+          [
+            "Sensor input",
+            "2 external inputs, full Wheatstone bridge, 350 Ω strain gage or higher"
+          ],
+          [
+            "Maximum sampling rate",
+            "4,000, 6,000, or 8,000 Hz, by version"
+          ],
+          [
+            "Measurement sensitivity",
+            "±0.04% FSR typical; ±0.025% FSR optimized (digital output; optimized at 1,000 Hz, oversampling 32, packet size 2)"
+          ],
+          [
+            "A/D converter",
+            "18 bit (transmitted data 16 bit)"
+          ],
+          [
+            "Bridge excitation",
+            "2.50 V DC at 10 mA maximum, pulsed to the sensor"
+          ],
+          [
+            "Differential input range",
+            "Factory selectable: ±15 mV, ±30 mV, or ±60 mV"
+          ],
+          [
+            "Gain",
+            "User selectable: 1×, 2×, 4×, 8×, 16×"
+          ],
+          [
+            "Digital offset",
+            "User selectable: ±100% full scale"
+          ],
+          [
+            "Oversampling",
+            "1×, 2×, 4×, 8×, 16×, 32×"
+          ],
+          [
+            "Calibration",
+            "2 independent shunt calibration legs (signal + and signal − to ground through 100 kΩ); digital polarity reversal; digital signal zero"
+          ],
+          [
+            "Accelerometer",
+            "Optional 3-axis: ±16 g or ±400 g"
+          ],
+          [
+            "Remote data logging",
+            "Up to 30,000 samples, with triggering"
+          ],
+          [
+            "Power supply",
+            "3 V DC to 6 V DC, 6 V DC absolute maximum"
+          ],
+          [
+            "Sensor driver current",
+            "10 mA absolute maximum"
+          ],
+          [
+            "Battery",
+            "3.7 V single-cell Li-Poly: 400 mAh standard; 850 mAh or 1,000 mAh optional"
+          ],
+          [
+            "Battery life",
+            "Up to 25 hours at 8 kHz on the standard 400 mAh battery"
+          ],
+          [
+            "Dimensions",
+            "36 mm × 23 mm × 4 mm board without tabs and connectors; 45 mm × 23 mm × 6 mm with mounting tabs"
+          ],
+          [
+            "Mass",
+            "6.5 g transceiver with epoxy coating; 9.0 g for the 400 mAh battery"
+          ],
+          [
+            "Operating temperature",
+            "−40 °C to +85 °C"
+          ]
+        ]
+      },
+      {
+        "group": "Radio link",
+        "rows": [
+          [
+            "Carrier",
+            "2.45 GHz direct sequence spread spectrum, 2.405 GHz to 2.480 GHz, license free worldwide"
+          ],
+          [
+            "RF channels",
+            "16, selected by rotary switch on the base unit"
+          ],
+          [
+            "Packet standard",
+            "IEEE 802.15.4 capable, open communication architecture"
+          ],
+          [
+            "Range",
+            "30 m line of sight with the 4-output base unit; 1,000 m (3,281 ft) line of sight with the 8-output base unit"
+          ]
+        ]
+      },
+      {
+        "group": "Base unit",
+        "rows": [
+          [
+            "Host connection",
+            "USB, mounts as a COM port; up to 230,400 baud, 8 data bits, no parity, 1 stop bit"
+          ],
+          [
+            "Analog outputs",
+            "4 or 8 programmable channels by base unit, 0 V to 5 V (2.5 V nominal center)"
+          ],
+          [
+            "Power supply",
+            "4-output base: 5 V DC to 24 V DC unregulated, or USB. 8-output base: 12 V DC to 24 V DC unregulated"
+          ]
+        ]
+      },
+      {
+        "group": "Software",
+        "rows": [
+          [
+            "Software",
+            "TECAT Data Viewer, or user supplied"
+          ],
+          [
+            "Functions",
+            "Configuration, calibration, live monitoring, data logging, remote logging and trigger setup, analog output assignment, strain calculator"
+          ]
+        ]
+      },
+      {
+        "group": "Optional accessories",
+        "rows": [
+          [
+            "Antenna cable with magnetic mount",
+            "4.0 m (13 ft)"
+          ],
+          [
+            "Antenna extension cable",
+            "4.5 m (15 ft) or 6.0 m (20 ft)"
+          ],
+          [
+            "Strain gage",
+            "350 Ω full bridge"
+          ],
+          [
+            "Additional battery",
+            "Li-Poly, 400 mAh or 850 mAh"
+          ],
+          [
+            "Remote enclosures",
+            "Remote top and battery top covers"
+          ]
+        ]
+      }
+    ],
+    "comparison": {
+      "Measurands": "Strain on 2 inputs (torque, thrust, bending); optional 3-axis acceleration",
+      "Channels": "2 strain channels",
+      "Sample rate": "4,000, 6,000, or 8,000 Hz versions",
+      "Accuracy": "±0.04% FSR typical, ±0.025% FSR optimized (stated as sensitivity)",
+      "Radio range": "30 m or 1,000 m line of sight, by base unit",
+      "Remote unit size and mass": "45 mm × 23 mm × 6 mm; 6.5 g plus 9.0 g battery",
+      "Battery life": "Up to 25 hours at 8 kHz (400 mAh battery)",
+      "Outputs": "4 or 8 analog (0 V to 5 V) by base unit, USB",
+      "Typical use": "Torque and thrust together, bending, low-strain structures"
+    },
+    "applications": [
+      "transportation",
+      "motorsports",
+      "energy",
+      "industrial"
+    ]
+  },
+  {
+    "slug": "tecat-tc2-k",
+    "name": "TECAT TC2-K",
+    "category": "Wireless thermocouple system",
+    "positioning": "Two-channel wireless K-type thermocouple system for brake rotor temperature inside the wheel hub.",
+    "summary": "The TECAT TC2-K reads two K-type thermocouples on a rotating wheel and sends the readings by radio to a base unit. It was designed for continuous brake rotor and spindle bearing temperature measurement and can be adapted to other applications. The remote unit sits in an 89 mm diameter by 42 mm enclosure on a mounting base made for each hub.",
+    "key_specs": [
+      {
+        "value": "2",
+        "label": "K-type thermocouple inputs"
+      },
+      {
+        "value": "1,000 °C",
+        "label": "top of thermocouple range"
+      },
+      {
+        "value": "±1 °C",
+        "label": "resolution"
+      },
+      {
+        "value": "350 g",
+        "label": "remote unit"
+      }
+    ],
+    "measures": [
+      "Temperature from two K-type thermocouples",
+      "Reference temperature at the remote unit, −25 °C to +125 °C"
+    ],
+    "features": [
+      "Two K-type thermocouple inputs with on-board channel amplification and on-board temperature referencing.",
+      "Digital thermocouple range is −40 °C to +1,000 °C; analog output range is −40 °C to +984 °C.",
+      "The remote unit is packaged in a standard 89 mm diameter by 42 mm enclosure on a mounting base designed for each wheel hub or application.",
+      "The base unit plugs into a PC USB port for TECAT Data Viewer, or into a power supply and DAQ through two 0 V to 5 V analog outputs.",
+      "Data rate is user selectable from 1 Hz to 10 Hz.",
+      "The remote draws 1.65 mA active with both thermocouples at 10 Hz and 25 µA inactive.",
+      "The system installs without altering the part under test and can be removed."
+    ],
+    "specs": [
+      {
+        "group": "Remote unit",
+        "rows": [
+          [
+            "Sensor input",
+            "2 K-type thermocouples"
+          ],
+          [
+            "Thermocouple range",
+            "Digital output: −40 °C to +1,000 °C. Analog output: −40 °C to +984 °C"
+          ],
+          [
+            "Measurement resolution",
+            "±1 °C"
+          ],
+          [
+            "Data rate",
+            "User selectable, 1 Hz to 10 Hz"
+          ],
+          [
+            "Power supply",
+            "3 V DC to 6 V DC, 6 V DC absolute maximum"
+          ],
+          [
+            "Battery",
+            "3.7 V single cell: 550 mAh LiSOCl2 standard; 400 mAh, 850 mAh, or 1,000 mAh Li-Poly optional"
+          ],
+          [
+            "Current draw",
+            "1.65 mA active with 2 K-type thermocouples at 10 Hz; 25 µA inactive; varies with oversampling and packet size"
+          ],
+          [
+            "Dimensions",
+            "89 mm diameter × 42 mm height, standard enclosure; mounting base is custom for each application and not included"
+          ],
+          [
+            "Mass",
+            "350 g"
+          ],
+          [
+            "Operating temperature",
+            "−25 °C to +125 °C (also the reference temperature measurement range)"
+          ],
+          [
+            "Specification conditions",
+            "10 Hz data rate, 2 K-type thermocouples, 3.7 V Li-Poly battery"
+          ]
+        ]
+      },
+      {
+        "group": "Radio link",
+        "rows": [
+          [
+            "Carrier",
+            "2.45 GHz direct sequence spread spectrum, 2.405 GHz to 2.480 GHz, license free worldwide"
+          ],
+          [
+            "RF channels",
+            "16"
+          ],
+          [
+            "Packet standard",
+            "IEEE 802.15.4 capable, open communication architecture"
+          ],
+          [
+            "Range",
+            "30 m (100 ft) line of sight"
+          ]
+        ]
+      },
+      {
+        "group": "Base unit",
+        "rows": [
+          [
+            "Host connection",
+            "USB, mounts as a COM port; up to 230,400 baud, 8 data bits, no parity, 1 stop bit"
+          ],
+          [
+            "Analog outputs",
+            "2 channels, 0 V to 5 V"
+          ],
+          [
+            "Power supply",
+            "5 V DC unregulated"
+          ]
+        ]
+      },
+      {
+        "group": "Software",
+        "rows": [
+          [
+            "Software",
+            "TECAT Data Viewer, or user supplied"
+          ],
+          [
+            "Functions",
+            "Configuration, calibration, live monitoring, data logging"
+          ]
+        ]
+      }
+    ],
+    "comparison": {
+      "Measurands": "Temperature (2 K-type thermocouples)",
+      "Channels": "2 thermocouple channels",
+      "Sample rate": "1 Hz to 10 Hz",
+      "Accuracy": "±1 °C (stated as resolution)",
+      "Radio range": "30 m line of sight",
+      "Remote unit size and mass": "89 mm diameter × 42 mm; 350 g",
+      "Battery life": "Contact us",
+      "Outputs": "2 analog (0 V to 5 V), USB",
+      "Typical use": "Brake rotor and spindle bearing temperature"
+    },
+    "applications": [
+      "transportation"
+    ]
+  },
+  {
+    "slug": "tecat-oem",
+    "name": "TECAT OEM Platform",
+    "category": "Wireless sensor platform for OEM integration",
+    "positioning": "Sensor fusion board and base unit for OEMs building wireless telemetry into products.",
+    "summary": "The TECAT OEM Platform is a remote sensor fusion board, a base unit, and configuration software, based on TECAT test hardware and built for integration into an OEM's own product. Its first product, the TECAT LC100-PP, integrates into artificial lift pump jack load cells. The pre-production LC100-PP measures load at ±0.1% FS and 100 Hz over a 1,000 m link, with 13 months of battery life on a 19 Ah lithium D cell.",
+    "key_specs": [
+      {
+        "value": "±0.1% FS",
+        "label": "accuracy, LC100-PP"
+      },
+      {
+        "value": "1,000 m",
+        "label": "radio range"
+      },
+      {
+        "value": "13 months",
+        "label": "battery life at 100 Hz"
+      },
+      {
+        "value": "4 kHz",
+        "label": "max data rate"
+      }
+    ],
+    "measures": [
+      "Strain (torque, tension, compression, bending), including load cells",
+      "3-axis acceleration (optional on the TECAT LC100-PP)",
+      "Temperature, including ambient temperature (optional on the TECAT LC100-PP)",
+      "Pressure (liquid and gas)",
+      "Distance and displacement",
+      "Magnetic field",
+      "Other quantities through MEMS sensors added to the remote unit"
+    ],
+    "features": [
+      "The remote sensor fusion board measures several quantities individually or together and is sized for integration into OEM products.",
+      "The TECAT LC100-PP base unit mounts on a DIN rail and delivers a ratiometric 2 mV/V ±0.02 analog output from a 5.000 V ±0.05 external excitation, so it connects to existing controls.",
+      "Data rate is 100 readings per second continuous and can be changed remotely from 1 Hz to 4 kHz.",
+      "One 3.6 V, 19 Ah lithium D cell powers the TECAT LC100-PP remote for 13 months at 100 Hz. The base unit LED turns steady red at 3.1 V; replace the battery within 2 weeks of that signal.",
+      "The remote unit is capable of achieving intrinsic safety certification (ATEX Zone 0), and the system is capable of achieving FCC, IC, and EU/CE wireless certification.",
+      "Available additions: a second analog output (voltage or current), digital USB output, battery voltage monitoring, over-the-air updates and configuration, and DC power isolation of the base unit.",
+      "The remote enters sleep mode when the base unit powers down, and data is available within 8 s of power-on.",
+      "Configuration software lets the OEM configure, calibrate, and display data from the system."
+    ],
+    "specs": [
+      {
+        "group": "System (TECAT LC100-PP, pre-production)",
+        "rows": [
+          [
+            "Radio frequency",
+            "2.4 GHz, license free worldwide"
+          ],
+          [
+            "Radio channels",
+            "16, dial selectable"
+          ],
+          [
+            "Hazardous certification",
+            "Remote unit capable of achieving intrinsic safety (ATEX Zone 0)"
+          ],
+          [
+            "Wireless certification",
+            "Capable of achieving FCC, IC, EU/CE"
+          ]
+        ]
+      },
+      {
+        "group": "Remote unit (TECAT LC100-PP, pre-production)",
+        "rows": [
+          [
+            "Data rate",
+            "100 readings per second continuous; remotely adjustable from 1 Hz to 4 kHz"
+          ],
+          [
+            "Measurement accuracy",
+            "±0.1% FS"
+          ],
+          [
+            "Data resolution",
+            "14 bit"
+          ],
+          [
+            "Sensor excitation",
+            "2.048 V"
+          ],
+          [
+            "Transmit power",
+            "13.4 dBm"
+          ],
+          [
+            "Telemetry range",
+            "1,000 m line of sight"
+          ],
+          [
+            "Fault output",
+            "200% FS"
+          ],
+          [
+            "Communication recovery after lost transmission",
+            "1 ms"
+          ],
+          [
+            "Battery",
+            "Lithium D cell, 3.6 V DC, 19 Ah"
+          ],
+          [
+            "Battery life",
+            "13 months (assumes 11 Ah used, continuous use in the worst-case environment, 100 Hz)"
+          ],
+          [
+            "Sleep mode",
+            "Enters sleep mode when the base unit is powered down"
+          ],
+          [
+            "Operating temperature",
+            "−40 °C to +80 °C"
+          ],
+          [
+            "Storage temperature",
+            "−55 °C to +85 °C"
+          ]
+        ]
+      },
+      {
+        "group": "Base unit (TECAT LC100-PP, pre-production)",
+        "rows": [
+          [
+            "Power",
+            "11.5 V DC to 25 V DC"
+          ],
+          [
+            "Supply current",
+            "500 mA"
+          ],
+          [
+            "Transmit power",
+            "20 dBm"
+          ],
+          [
+            "Nominal latency",
+            "50 ms"
+          ],
+          [
+            "External excitation",
+            "5.000 V DC ±0.05"
+          ],
+          [
+            "Analog output",
+            "2 mV/V ±0.02, ratiometric to external excitation"
+          ],
+          [
+            "Analog filter",
+            "100 Hz (−3 dB)"
+          ],
+          [
+            "Fault output",
+            "0 V DC common mode"
+          ],
+          [
+            "Time to data after power-on",
+            "8 s maximum"
+          ],
+          [
+            "Status LED",
+            "Steady blue: good communication. Red flashes: retries. Steady red: battery below 3.1 V, replace within 2 weeks"
+          ],
+          [
+            "Operating temperature",
+            "−40 °C to +80 °C"
+          ],
+          [
+            "Storage temperature",
+            "−55 °C to +85 °C"
+          ],
+          [
+            "Mounting",
+            "DIN rail"
+          ]
+        ]
+      },
+      {
+        "group": "Software",
+        "rows": [
+          [
+            "Configuration software",
+            "Configure, calibrate, and display data from the system"
+          ],
+          [
+            "Updates",
+            "Over-the-air updating and user configuration, available as an addition"
+          ]
+        ]
+      }
+    ],
+    "comparison": {
+      "Measurands": "Load (strain); optional acceleration and temperature; platform adds pressure, displacement, magnetic field",
+      "Channels": "Contact us",
+      "Sample rate": "100 Hz continuous; remotely set from 1 Hz to 4 kHz",
+      "Accuracy": "±0.1% FS",
+      "Radio range": "1,000 m line of sight",
+      "Remote unit size and mass": "Contact us",
+      "Battery life": "13 months at 100 Hz (19 Ah D cell)",
+      "Outputs": "Ratiometric analog, 2 mV/V; second analog and USB optional",
+      "Typical use": "Wireless load cells on artificial lift pump jacks"
+    },
+    "applications": [
+      "energy",
+      "industrial",
+      "transportation",
+      "ivhm"
+    ]
+  }
+]

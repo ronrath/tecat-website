@@ -1,0 +1,29 @@
+[
+  {
+    "id": "david-cole-center-for-automotive-research",
+    "quote": "This is real. This technology could be very important for providing a tool which has the potential to optimize the performance of each cylinder in the engine.",
+    "name": "David Cole",
+    "title": "Chairman Emeritus",
+    "organization": "Center for Automotive Research",
+    "applications": ["transportation"],
+    "source": "https://tecatperformance.com/transporation/"
+  },
+  {
+    "id": "david-currier-toyota-racing-development",
+    "quote": "The TECAT products will allow real-time data acquisition, which until now, was only possible using a testing lab and very expensive equipment.",
+    "name": "David Currier",
+    "title": "Vice President, Strategic Engineering",
+    "organization": "Toyota Racing Development",
+    "applications": ["motorsports"],
+    "source": "https://tecatperformance.com/motorsports/"
+  },
+  {
+    "id": "jim-oberhofer-motorsports-crew-chief",
+    "quote": "With safety a constant factor in our industry, we must constantly be looking to new technologies, which will provide real-time data on how the vehicle is performing. With TECAT, teams can start to paint a full picture on how an 8000hp monster is behaving on track.",
+    "name": "Jim Oberhofer",
+    "title": "Motorsports Crew Chief",
+    "organization": "",
+    "applications": ["motorsports"],
+    "source": "https://tecatperformance.com/motorsports/"
+  }
+]
