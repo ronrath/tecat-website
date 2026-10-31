@@ -1,0 +1,50 @@
+/* Design tokens. One to one with docs/design-tokens.md; brand values are exact. */
+:root {
+  --color-red: #CC2229;
+  --color-red-dark: #A31B21;
+  --color-black: #000000;
+  --color-ink: #111111;
+  --color-text: #333333;
+  --color-muted: #5C5C5C;
+  --color-gray: #DFDFDE;
+  --color-surface: #F5F5F4;
+  --color-line: #D0D0CF;
+  --color-white: #FFFFFF;
+
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --text-caption: 0.875rem;
+  --text-body: 1rem;
+  --text-lead: 1.125rem;
+  --text-h4: 1.25rem;
+  --text-h3: 1.5rem;
+  --text-h2: 2rem;
+  --text-h1: 2.5rem;
+  --text-hero: 3.5rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  --container: 1200px;
+  --gutter: 24px;
+  --section-y: 96px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, .06), 0 4px 12px rgba(0, 0, 0, .06);
+}
+
+@media (max-width: 639px) {
+  :root {
+    --text-hero: 2.25rem;
+    --text-h1: 2rem;
+    --text-h2: 1.625rem;
+    --gutter: 16px;
+    --section-y: 56px;
+  }
+}
