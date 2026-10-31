@@ -1,0 +1,35 @@
+<!--{"title": "ICM App Connected", "description": "Final step of connecting ICM App to QuickBooks Online.", "crumbs": [["ICM App", "icm-app/"], ["Connected", "icm-app/connected/"]]}-->
+<section class="page-intro">
+  <div class="container narrow">
+    <p class="eyebrow">ICM App</p>
+    <h1>One last step</h1>
+    <p class="lead">Copy the full address of this page and send it to Ron right away. It expires within a few minutes.</p>
+  </div>
+</section>
+
+<section class="section flush-top">
+  <div class="container narrow">
+    <p><button type="button" id="copy-url">Copy address</button> <span id="copy-status" aria-live="polite"></span></p>
+    <p><code id="page-url" style="word-break: break-all;"></code></p>
+    <p>This page doesn't store or send anything. The address carries a one-time code that ICM App needs to finish connecting.</p>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var url = window.location.href;
+    var box = document.getElementById("page-url");
+    var status = document.getElementById("copy-status");
+    box.textContent = url;
+    if (url.indexOf("code=") === -1) {
+      status.textContent = "No connection code found. Start again from the link Ron sent.";
+    }
+    document.getElementById("copy-url").addEventListener("click", function () {
+      navigator.clipboard.writeText(url).then(function () {
+        status.textContent = "Copied.";
+      }, function () {
+        status.textContent = "Select the address below and copy it.";
+      });
+    });
+  })();
+</script>
