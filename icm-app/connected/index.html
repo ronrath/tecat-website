@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICM App Connected | TECAT Performance Systems</title>
+<meta name="description" content="Final step of connecting ICM App to QuickBooks Online.">
+<meta name="robots" content="noindex, nofollow">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TECAT Performance Systems">
+<meta property="og:title" content="ICM App Connected | TECAT Performance Systems">
+<meta property="og:description" content="Final step of connecting ICM App to QuickBooks Online.">
+<meta property="og:image" content="https://ronrath.github.io/tecat-website/images/hero-tecat-kit.jpg">
+<link rel="icon" href="../../favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="../../favicon-196x196.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon-152x152.png">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/site.css">
+<script>document.documentElement.classList.add('js')</script>
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-bar">
+    <a class="brand" href="../../"><img src="../../images/logo-tecat-horizontal.png" srcset="../../images/logo-tecat-horizontal.png 1x, ../../images/logo-tecat-horizontal@2x.png 2x" width="480" height="163" alt="TECAT Performance Systems home"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul class="nav-list">
+        <li class="has-menu">
+          <a href="../../products/">Products</a>
+          <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="menu-products"><span class="visually-hidden">Show product pages</span></button>
+          <ul class="submenu" id="menu-products"><li><a href="../../products/tecat-468-single/">TECAT 468 Single Channel</a></li><li><a href="../../products/tecat-468-dual/">TECAT 468 Dual Channel</a></li><li><a href="../../products/tecat-tc2-k/">TECAT TC2-K</a></li><li><a href="../../products/tecat-oem/">TECAT OEM Platform</a></li></ul>
+        </li>
+        <li class="has-menu">
+          <a href="../../applications/">Applications</a>
+          <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="menu-apps"><span class="visually-hidden">Show application pages</span></button>
+          <ul class="submenu" id="menu-apps"><li><a href="../../applications/transportation/">Transportation</a></li><li><a href="../../applications/motorsports/">Motorsports</a></li><li><a href="../../applications/energy/">Energy</a></li><li><a href="../../applications/industrial/">Industrial</a></li><li><a href="../../applications/ivhm/">IVHM</a></li></ul>
+        </li>
+        <li><a href="../../resources/">Resources</a></li>
+        <li><a href="../../news/">News</a></li>
+        <li><a href="../../about/">About</a></li>
+        <li class="nav-cta-item"><a class="btn btn-primary nav-cta" href="../../contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<nav class="container breadcrumb" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../../icm-app/">ICM App</a></li><li aria-current="page">Connected</li></ol></nav>
+
+
+<section class="page-intro">
+  <div class="container narrow">
+    <p class="eyebrow">ICM App</p>
+    <h1>One last step</h1>
+    <p class="lead">Copy the full address of this page and send it to Ron right away. It expires within a few minutes.</p>
+  </div>
+</section>
+
+<section class="section flush-top">
+  <div class="container narrow">
+    <p><button type="button" id="copy-url">Copy address</button> <span id="copy-status" aria-live="polite"></span></p>
+    <p><code id="page-url" style="word-break: break-all;"></code></p>
+    <p>This page doesn't store or send anything. The address carries a one-time code that ICM App needs to finish connecting.</p>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var url = window.location.href;
+    var box = document.getElementById("page-url");
+    var status = document.getElementById("copy-status");
+    box.textContent = url;
+    if (url.indexOf("code=") === -1) {
+      status.textContent = "No connection code found. Start again from the link Ron sent.";
+    }
+    document.getElementById("copy-url").addEventListener("click", function () {
+      navigator.clipboard.writeText(url).then(function () {
+        status.textContent = "Copied.";
+      }, function () {
+        status.textContent = "Select the address below and copy it.";
+      });
+    });
+  })();
+</script>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="../../"><img src="../../images/logo-tecat-horizontal.png" srcset="../../images/logo-tecat-horizontal.png 1x, ../../images/logo-tecat-horizontal@2x.png 2x" width="480" height="163" alt="TECAT Performance Systems home"></a>
+      <p>TECAT Performance Systems designs and manufactures wireless telemetry systems that measure torque, strain, and temperature on rotating and moving parts.</p>
+      <ul class="social"><li><a href="https://www.linkedin.com/company/tecat-performance-sensors">LinkedIn</a></li><li><a href="https://www.youtube.com/channel/UC354DM7PxJ8TYnSaU9V_U4w">YouTube</a></li><li><a href="https://www.facebook.com/TECATPerformance/">Facebook</a></li><li><a href="https://twitter.com/TECATSystems">X (Twitter)</a></li></ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Products</h2>
+      <ul><li><a href="../../products/tecat-468-single/">TECAT 468 Single Channel</a></li><li><a href="../../products/tecat-468-dual/">TECAT 468 Dual Channel</a></li><li><a href="../../products/tecat-tc2-k/">TECAT TC2-K</a></li><li><a href="../../products/tecat-oem/">TECAT OEM Platform</a></li></ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Applications</h2>
+      <ul><li><a href="../../applications/transportation/">Transportation</a></li><li><a href="../../applications/motorsports/">Motorsports</a></li><li><a href="../../applications/energy/">Energy</a></li><li><a href="../../applications/industrial/">Industrial</a></li><li><a href="../../applications/ivhm/">IVHM</a></li></ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Company</h2>
+      <ul>
+        <li><a href="../../about/">About</a></li>
+        <li><a href="../../resources/">Resources</a></li>
+        <li><a href="../../news/">News</a></li>
+        <li><a href="../../contact/">Contact</a></li>
+        <li><a href="../../contact/representatives/">Find a representative</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-title">Headquarters</h2>
+      <address>775 Technology Drive, Suite 200<br>Ann Arbor, Michigan 48108<br><a href="tel:+12486159862">248.615.9862</a><br><a href="mailto:sales@tecatperformance.com">sales@tecatperformance.com</a></address>
+    </div>
+  </div>
+  <div class="container footer-base">
+    <p>&copy; 2026 TECAT Performance Systems, LLC</p>
+  </div>
+</footer>
+
+<script src="../../js/site.js" defer></script>
+</body>
+</html>
